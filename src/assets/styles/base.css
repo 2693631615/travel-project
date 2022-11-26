@@ -1,0 +1,26 @@
+@import url(./border.css);
+@import url(./iconfont.css);
+@import url(./reset.css);
+/* :root --> 获取根元素html标签 */
+:root {
+  --color-text: #333;
+  --color-high-text: #ff5777;
+  --color-tint: #ff8198;
+  --color-bg: #00bcd4;
+  --font-size: .28rem;
+  --line-hg: 1.5;
+  --header-hg: .86rem
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+/* 单行文本隐藏 */
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
